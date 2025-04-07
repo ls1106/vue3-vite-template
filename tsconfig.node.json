@@ -1,0 +1,14 @@
+// 此文件是node环境下ts的配置
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true // 模块"path"只能在使用allowSyntheticDefaultImports标志时进行默认导入path.d.ts
+  },
+  "include": [
+    "vite.config.ts",
+    "./config/vite.base.ts",
+    "./config/vite.dev.ts",
+    "./config/vite.prod.ts"
+  ]
+}
